@@ -11,6 +11,14 @@ npm run dev
 
 打开终端显示的本地地址即可使用。腾讯云凭证只保存在当前浏览器的本地存储中。
 
+## 部署
+
+本项目使用 Vercel 部署。将仓库导入 Vercel 后，Vercel 会自动识别 Next.js，使用 `npm run build` 完成构建。也可以通过 CLI 部署：
+
+```bash
+npx vercel --prod
+```
+
 ## 功能
 
 - 选择、拖拽或粘贴图片上传
